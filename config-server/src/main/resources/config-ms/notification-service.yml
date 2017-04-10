@@ -14,13 +14,13 @@ server:
 remind:
   cron: 0 0 0 * * *
   email:
-    text: "Hey, {0}! We''ve missed you here on PiggyMetrics. It''s time to check your budget statistics.\r\n\r\nCheers,\r\nPiggyMetrics team"
-    subject: PiggyMetrics reminder
+    text: "Hey, {0}! We''ve missed you here on Nuntius. It''s time to check your budget statistics.\r\n\r\nCheers,\r\nNuntius team"
+    subject: Nuntius reminder
 
 backup:
   cron: 0 0 12 * * *
   email:
-    text: "Howdy, {0}. Your account backup is ready.\r\n\r\nCheers,\r\nPiggyMetrics team"
+    text: "Howdy, {0}. Your account backup is ready.\r\n\r\nCheers,\r\nNuntius team"
     subject: PiggyMetrics account backup
     attachment: backup.json
 
@@ -30,7 +30,7 @@ spring:
       host: notification-mongodb
       username: user
       password: ${MONGODB_PASSWORD}
-      database: piggymetrics
+      database: nuntius
       port: 27017
   mail:
     host: smtp.gmail.com
