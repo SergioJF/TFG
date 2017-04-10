@@ -24,7 +24,7 @@ after_success:
 
   # CONFIG SERVICE
   - export CONFIG=sergiojf/tfg-config
-  - docker build -t $CONFIG:$COMMIT ./config
+  - docker build -t $CONFIG:$COMMIT ./config-server
   - docker tag $CONFIG:$COMMIT $CONFIG:$TAG
   - docker push $CONFIG
 
