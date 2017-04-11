@@ -1,8 +1,7 @@
 
 [![Build Status](https://travis-ci.org/SergioJF/TFG.svg?branch=master)](https://travis-ci.org/SergioJF/TFG)
-[![codecov.io](https://codecov.io/github/SergioJF/TFG/coverage.svg?branch=master)](https://codecov.io/github/SergioJF/
+[![codecov](https://codecov.io/gh/SergioJF/TFG/branch/master/graph/badge.svg)](https://codecov.io/gh/SergioJF/TFG)
 
-TFG?branch=master)
 # TFG - NUNTIUS
 
 ## Trello 
@@ -12,12 +11,12 @@ TFG?branch=master)
 Tipos de targetas:
 
 1. Funcionalidad:
-..* Implementación --> Verde
-..* Test --> Amarillo
+⋅⋅* Implementación --> Verde
+⋅⋅* Test --> Amarillo
 2. Administración:
-..* Microservicio --> Naranja 
-..* Integración --> Morado
-..* Despliegue --> Azul
+⋅⋅* Microservicio --> Naranja 
+⋅⋅* Integración --> Morado
+⋅⋅* Despliegue --> Azul
 3. Hotfix --> Rojo
 
 ## Gitflow
