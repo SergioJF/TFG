@@ -33,3 +33,15 @@ after_success:
   - docker build -t $MONGO_DB:$COMMIT ./mongodb
   - docker tag $MONGO_DB:$COMMIT $MONGO_DB:$TAG
   - docker push $MONGO_DB
+
+  # EUREKA SERVICE
+  - export EUREKA_SERVICE=sergiojf/tfg-eureka-service
+  - docker build -t $EUREKA_SERVICE:$COMMIT ./eureka-service
+  - docker tag $EUREKA_SERVICE:$COMMIT $EUREKA_SERVICE:$TAG
+  - docker push $EUREKA_SERVICE
+
+   # ACCOUNT SERVICE
+  - export ACCOUNT_SERVICE=sergiojf/tfg-account-service
+  - docker build -t $ACCOUNT_SERVICE:$COMMIT ./account-service
+  - docker tag $ACCOUNT_SERVICE:$COMMIT $ACCOUNT_SERVICE:$TAG
+  - docker push $ACCOUNT_SERVICE
