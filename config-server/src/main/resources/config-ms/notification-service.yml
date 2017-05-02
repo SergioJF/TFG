@@ -21,7 +21,7 @@ backup:
   cron: 0 0 12 * * *
   email:
     text: "Howdy, {0}. Your account backup is ready.\r\n\r\nCheers,\r\nNuntius team"
-    subject: PiggyMetrics account backup
+    subject: Nuntius account backup
     attachment: backup.json
 
 spring:

@@ -13,7 +13,7 @@ spring:
       host: account-mongodb
       username: user
       password: ${MONGODB_PASSWORD}
-      database: messager
+      database: nuntius
       port: 27017
 
 server:
