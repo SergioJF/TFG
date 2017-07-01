@@ -74,7 +74,7 @@ public class AccountControllerTest {
                 .andExpect(status().isOk());
     }
 
-    
+
 
     @Test
     public void shouldFailOnValidationTryingToSaveCurrentAccount() throws Exception {
